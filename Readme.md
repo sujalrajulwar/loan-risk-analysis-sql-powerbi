@@ -29,7 +29,7 @@ This project analyzes borrower data to identify patterns that contribute to defa
 ## 📊 Dashboard Preview
 
 ### 🔹 Loan Overview
-![Overview](assets/images/loan_overview.png)
+![Overview](assets/images/overview_dashboard.png)
 
 ### 🔹 Applicant Analysis
 ![Applicants](assets/images/applicant_analysis.png)
