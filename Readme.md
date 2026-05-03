@@ -71,13 +71,13 @@ This project analyzes borrower data (~26K+ records) to identify patterns that co
 
 ---
 
-## 📊 Business Insights
+## 🎯 Business Impact
 
-- Higher default rates observed in low-income and unemployed applicant segments  
-- Applicants with lower credit scores show significantly higher default probability  
-- Middle-aged applicants take higher loan amounts but have relatively stable repayment behavior  
-- Self-employed and part-time workers show slightly higher default trends compared to full-time employees  
-- Loan purpose and income level strongly influence loan amount distribution and risk
+- Unemployed applicants show the highest default rate (~3.39%), which is ~1% higher than part-time applicants (~2.36%), indicating income instability as a key
+  risk factor  
+- Self-employed and full-time applicants have moderate default rates (~2.8%–3.0%), suggesting relatively stable but still significant risk  
+- Variations in employment type contribute to measurable differences in default probability, supporting the need for risk-based segmentation in loan approval
+- Default rates remain relatively stable between ~11.5%–11.7% across years, indicating persistent credit risk rather than short-term fluctuations  
 
 ---
 
