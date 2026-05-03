@@ -1,20 +1,43 @@
 # 📊 Loan Risk Analysis (SQL + Power BI)
 
-A data analysis project focused on identifying high-risk loan applicants, understanding default patterns, and improving lending decisions using data-driven insights.
+A data analysis project on loan default risk using ~26,000+ records. The project focuses on identifying high-risk borrower segments and analyzing how factors like income, credit score, employment type, and loan amount influence default behavior. Built using SQL for data processing and Power BI for interactive dashboarding.
+
+---
+
+## 📊 Dataset Information
+
+- Records: ~26,000+ rows  
+- Dataset: Loan Default Dataset  
+- Tables used: 1 (loan_default)  
+- Key features:
+  - Income
+  - Credit Score
+  - Employment Type
+  - Loan Amount
+  - Age Group
+  - Marital Status
+  - Default Status (Target Variable)
 
 ---
 
 ## 🚀 Project Highlights
-- End-to-End Data Analysis Pipeline (CSV → SQL → Power BI)
-- Loan default risk identification
-- Applicant segmentation based on financial behavior
-- Business insights for reducing financial loss
+
+- Built an end-to-end pipeline: CSV → SQL Server → Power BI  
+- Cleaned and transformed 26K+ records using SQL  
+- Created calculated measures using DAX for KPIs like default rate and total loans  
+- Designed 3 interactive dashboard pages:
+  - Loan Overview  
+  - Applicant Demographics & Financial Profile  
+  - Financial Risk Metrics  
+- Identified high-risk segments based on income, credit score, and employment type  
 
 ---
 
 ## 📌 Problem Statement
-Financial institutions face significant losses due to loan defaults.  
-This project analyzes borrower data to identify patterns that contribute to default risk and provides insights to improve decision-making.
+
+Loan defaults are a major challenge for financial institutions, leading to significant financial losses. 
+
+This project analyzes borrower data (~26K+ records) to identify patterns that contribute to loan defaults. It focuses on understanding how factors like income, credit score, employment type, and demographics influence default risk, and provides insights to support better loan approval decisions.
 
 ---
 
@@ -49,18 +72,22 @@ This project analyzes borrower data to identify patterns that contribute to defa
 ---
 
 ## 📊 Business Insights
-- High default rates observed in specific income groups
-- Certain applicant profiles show significantly higher risk
-- Loan amount and repayment history strongly influence default probability
-- Demographic patterns highlight potential risk clusters
+
+- Higher default rates observed in low-income and unemployed applicant segments  
+- Applicants with lower credit scores show significantly higher default probability  
+- Middle-aged applicants take higher loan amounts but have relatively stable repayment behavior  
+- Self-employed and part-time workers show slightly higher default trends compared to full-time employees  
+- Loan purpose and income level strongly influence loan amount distribution and risk
 
 ---
 
 ## 🚀 Recommendations
-- Introduce stricter checks for high-risk applicant segments
-- Use data-driven scoring models before loan approval
-- Monitor high-risk loans more frequently
-- Adjust loan approval thresholds based on risk category
+
+- Implement stricter approval criteria for applicants with low income and poor credit history  
+- Introduce risk-based interest rates for high-risk borrower segments  
+- Prioritize full-time employed applicants with stable income profiles  
+- Monitor and review loans issued to self-employed and part-time applicants more frequently  
+- Use data-driven scoring models to support loan approval decisions  
 
 ---
 
