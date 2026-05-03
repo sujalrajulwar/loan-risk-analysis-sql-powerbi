@@ -127,3 +127,11 @@ loan-risk-analysis-powerbi/
 - Implement machine learning model for risk prediction
 - Add real-time data refresh
 - Deploy dashboard to cloud
+
+---
+
+## 🧪 Key Questions Answered
+
+- Which customer segments are most likely to default?
+- How does income and employment type influence loan risk?
+- What borrower profiles are safest for loan approval?
