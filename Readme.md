@@ -126,7 +126,7 @@ loan-risk-analysis-powerbi/
 ## 📌 Future Improvements
 - Implement machine learning model for risk prediction
 - Add real-time data refresh
-- Deploy dashboard to cloud
+- Deploy dashboard to cloud.
 
 ---
 
